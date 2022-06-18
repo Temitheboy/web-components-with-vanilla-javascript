@@ -34,9 +34,9 @@ class PetCard extends HTMLElement {
         this.shadowRoot.querySelector(".details h2").innerText =
         this.getAttribute("name");
         this.shadowRoot.querySelector(".avatar img").src =
-        this.getAttribute("name");
-        this.shadowRoot.querySelector(".avatar img").src =
         this.getAttribute("avatar");
+        this.shadowRoot.querySelector(".avatar img").src =
+        this.getAttribute("name");
 
     }
 }
