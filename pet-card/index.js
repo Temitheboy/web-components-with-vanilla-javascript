@@ -18,8 +18,7 @@ template.innerHTML = `
             </div>
         </div>
 </div>
-
-`
+`;
 
 class PetCard extends HTMLElement {
     constructor (){
