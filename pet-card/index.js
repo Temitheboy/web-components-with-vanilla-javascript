@@ -20,12 +20,6 @@ template.innerHTML = `
 </div>
 `;
 
-const template = document.querySelectorAll("template");
-
-function template(){
-    
-
-}
 class PetCard extends HTMLElement {
     constructor (){
         super();
@@ -37,4 +31,4 @@ class PetCard extends HTMLElement {
     }
 }
 
-export default PetCard
+export default PetCard;
