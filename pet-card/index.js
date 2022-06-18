@@ -30,6 +30,9 @@ class PetCard extends HTMLElement {
         this.attachShadow({mode: "open"});
         this.shadowRoot.appendChild(template.content.cloneNode(true));
     }
+    attributeChangedCallback(name, oldValue, newValue){
+        
+    }
 }
 
 export default PetCard
