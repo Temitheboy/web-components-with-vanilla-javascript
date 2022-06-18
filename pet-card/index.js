@@ -1,0 +1,1 @@
+class PetCard extends HTMLElement
