@@ -31,12 +31,9 @@ class PetCard extends HTMLElement {
         return ["name", "avatar"];
     }
     attributeChangedCallback(name, oldValue, newValue){
-        this.shadowRoot.querySelector(".details h2").innerText =
-        this.getAttribute("name");
-        this.shadowRoot.querySelector(".avatar img").src =
-        this.getAttribute("avatar");
-        this.shadowRoot.querySelector(".avatar img").src =
-        this.getAttribute("name");
+        this.shadowRoot.querySelector(".details h2").innerText = this.getAttribute("name");
+        this.shadowRoot.querySelector(".avatar img").src = this.getAttribute("avatar");
+        this.shadowRoot.querySelector(".avatar img").src = this.getAttribute("name");
 
     }
 }
